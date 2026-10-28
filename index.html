@@ -1,126 +1,87 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-
     <link rel="stylesheet" href="CSS/index.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <header>
+<header>
+    <div class="div-logo">
+        <img class="logotipo" src="img/logotipo-confeitaria.png" alt="Logotipo da confeitaria">
+    </div>
 
-        <div class="div-logo">
-            <img class="logotipo" src="img/logotipo-confeitaria.png"
-                alt="Logotipo da confeitaria">
+    <div class="div-menu">
+        <h1>Confeitaria Doce Detalhe</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i>Inicio</i></a></li>
+                <li><a href="pages/sobre.html">Sobre</a></li>
+                <li><a href="pages/cardapio.html">Cardapio</a></li>
+                <li><a href="pages/contato.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="div-logo"></div>
+</header>
+
+<img id="img" class="img-bolo" src="img/bolo1.png" alt="Bolo de chocolate">
+
+<section class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>
+        Somos uma confeitaria dedicada a
+        criar bolos deliciosos e personalizados
+        para todas as ocasiões.<br>
+        Nossa paixão pela confeitaria é refletida
+        em cada criação que sai da nossa
+        cozinha.
+    </p>
+</section>
+
+<section class="sobre">
+    <h2>Nosso Cardapio</h2>
+
+    <div class="menu-cardapio-itens">
+
+        <div class="menu-cardapio-item">
+            <h3>Bolo de Chocolate</h3>
+            <p>
+                Um classico irresistivel
+                com camadas de Chocolate
+            </p>
         </div>
 
-        <div class="div-menu">
-
-            <h1>Confeitaria Doce Detalhe</h1>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html"><i>Inicio</i></a>
-                    </li>
-
-                    <li>
-                        <a href="pages/sobre.html">Sobre</a>
-                    </li>
-
-                    <li>
-                        <a href="pages/cardapio.html">Cardapio</a>
-                    </li>
-
-                    <li>
-                        <a href="pages/contato.html">Reserva</a>
-                    </li>
-                </ul>
-            </nav>
-
+        <div class="menu-cardapio-item">
+            <h3>Bolo de Morango</h3>
+            <p>
+                Fresco e frutado, perfeito
+                para qualquer ocasião.
+            </p>
         </div>
 
-    </header>
-
-    <img id="img" class="img-bolo" src="img/bolo1.png" alt="Bolo">
-
-    <section class="sobre">
-
-        <h2>Sobre Nós</h2>
-
-        <p>
-            Somos uma confeitaria dedicada a
-            criar bolos deliciosos e personalizados
-            para todas as ocasiões.<br>
-
-            Nossa paixão pela confeitaria é refletida
-            em cada criação que sai da nossa
-            cozinha.
-        </p>
-
-    </section>
-
-    <section class="sobre">
-
-        <h2>Nosso cardapio</h2>
-
-        <div class="menu-cardapio-itens">
-
-            <div class="menu-cardapio-item">
-
-                <h3>Bolo de Chocolate</h3>
-
-                <p>
-                    Um classico irresistivel
-                    com camadas de Chocolate
-                </p>
-
-            </div>
-
-            <div class="menu-cardapio-item">
-
-                <h3>Bolo de Morango</h3>
-
-                <p>
-                    Fresco e frutado, perfeito
-                    para qualquer ocasião.
-                </p>
-
-            </div>
-
-            <div class="menu-cardapio-item">
-
-                <h3>Bolo de Maracuja</h3>
-
-                <p>
-                    Delicioso e refrescante, 
-                    com recheio cremoso de maracuja.
-                </p>
-
-            </div>
-
+        <div class="menu-cardapio-item">
+            <h3>Bolo de Maracuja</h3>
+            <p>
+                Delicioso e refrescante,
+                com recheio cremoso de maracuja.
+            </p>
         </div>
 
-    </section>
+    </div>
+</section>
 
-    <script src="JS/index.js"></script>
+<footer>
+    &copy; 2026 Confeitaria Doce Detalhe. Todos os direitos reservados.
+</footer>
 
-    <footer>
-        &copy; 2026 confeitaria Sempre Doce.
-        Todos os direitos reservados.
-    </footer>
+<script src="JS/index.js"></script>
 
 </body>
-
 </html>
-

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/cardapio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="div-logo">
+        <img class="logotipo" src="../img/logotipo-confeitaria.png" alt="Logotipo da confeitaria">
+    </div>
+    <div class="div-menu">
+        <h1>Confeitaria Doce Detalhe</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html"><i>Inicio</i></a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cardapio.html">Cardapio</a></li>
+                <li><a href="pages/contato.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="div-logo"></div>
+</header>
+
+<section class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>
+        Somos uma confeitaria dedicada a
+        criar bolos deliciosos e personalizados
+        para todas as ocasiões.<br>
+        Nossa paixão pela confeitaria é refletida
+        em cada criação que sai da nossa
+        cozinha.
+    </p>
+</section>
+
+<section class="sobre">
+    <h2>Nosso cardapio</h2>
+    <div class="menu-cardapio-itens">
+        <div class="menu-cardapio-item">
+            <h3>Bolo de Chocolate</h3>
+            <div class="div-card">
+                <img class="img-cardapio" src="../img/bolo1.png" alt="Bolo de Chocolate">
+                <p>
+                    Um classico irresistivel
+                    com camadas de Chocolate
+                </p>
+            </div>
+            <div class="reservar">
+                <button class="button-reserva" onclick="abrir()">Reservar</button>
+            </div>
+        </div>
+
+        <div class="menu-cardapio-item">
+            <h3>Bolo de Morango</h3>
+            <div class="div-card">
+                <img class="img-cardapio" src="../img/bolo3.png" alt="Bolo de Morango">
+                <p>
+                    Fresco e frutado, perfeito
+                    para qualquer ocasião.
+                </p>
+            </div>
+            <div class="reservar">
+                <button class="button-reserva" onclick="abrir()">Reservar</button>
+            </div>
+        </div>
+
+        <div class="menu-cardapio-item">
+            <h3>Bolo de Maracuja</h3>
+            <div class="div-card">
+                <img class="img-cardapio" src="../img/bolo2.png" alt="Bolo de Maracuja">
+                <p>
+                    Delicioso e refrescante,
+                    com recheio cremoso de maracuja.
+                </p>
+            </div>
+            <div class="reservar">
+                <button class="button-reserva" onclick="abrir()">Reservar</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="fade" class="hide"></div>
+
+<div id="modal" class="hide">
+    <div class="fechar">
+        <a href="#" onclick="fechar()">Fechar</a>
+    <div>
+    <h2>Realizar Reserva</h2>
+    <img src="../img/pix.png" alt="QRCode para pagamento via pix">
+</div>
+
+<script src="../JS/cardapio.js"></script>
+
+</body>
+</html>

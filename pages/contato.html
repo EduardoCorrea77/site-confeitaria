@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="div-logo">
+        <img class="logotipo" src="../img/logotipo-confeitaria.png" alt="Logotipo da confeitaria">
+    </div>
+    <div class="div-menu">
+        <h1>Confeitaria Doce Detalhe</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html"><i>Início</i></a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="div-logo"></div>
+</header>
+
+<section class="contato">
+    <h2>Entre em Contato</h2>
+    <p>Faça sua reserva ou envie sua mensagem para a nossa confeitaria!</p>
+
+    <form>
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+            <option value="">Selecione uma opção</option>
+            <option value="reserva">Reserva de bolo</option>
+            <option value="encomenda">Encomenda</option>
+            <option value="duvida">Dúvidas</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="data">Data desejada para a encomenda:</label>
+        <input type="date" id="data" name="data">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+
+        <button type="submit">Enviar mensagem</button>
+        <button type="reset">Limpar formulário</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2026 Confeitaria Doce Detalhe. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+.img-cardapio {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.div-card {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.div-card p {
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+}
+
+.menu-cardapio-item h3 {
+    margin-bottom: 10px;
+}
+
+.reservar {
+    text-align: right;
+    font-size: 10px;
+}
+
+.reservar button {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 30px 30px 30px 30px;
+    z-index: 2;
+    text-align: center;
+}
+
+.fechar {
+    text-align: right;
+}
+.button-reserva {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0px;
+    color: #F9BDB5;
+    font-weight: bold;
+}
+.button-reserva:hover{
+    text-decoration: underline;
+}
+
